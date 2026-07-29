@@ -77,7 +77,7 @@
       background-color = "#282828";
     };
 
-    "Xiaomi Corporation Mi Monitor 5790010008157" = {
+    "Xiaomi Corporation Mi Monitor 5790010011352" = {
       mode = {
         width = 1920;
         height = 1080;

@@ -1,5 +1,6 @@
-{...}: {
+{inputs, ...}: {
   imports = [
+    inputs.spicetify-nix.homeManagerModules.spicetify
     ./bash.nix
     ./bat.nix
     ./codex.nix
@@ -11,5 +12,6 @@
     ./nvim
     ./yazi.nix
     ./jj.nix
+    ./spicetify.nix
   ];
 }
