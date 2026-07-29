@@ -1,0 +1,14 @@
+keys:
+  - &master age1y9pucmwp9kqs202en55udaq78z6g7ctj8tamgrqaag83m63grajqymn3lc
+  - &home age1fz28h6sp8r56k6nrt6vpxph76qt3s7w7j0dp86cwuqq0sg7xdaqs3xye4u
+creation_rules:
+  - path_regex: modules/nixos/users/tim/secrets.ya?ml$
+    key_groups:
+      - age:
+          - *master
+
+  - path_regex: modules/home-manager/users/tim/secrets.ya?ml$
+    key_groups:
+      - age:
+          - *master
+          - *home
