@@ -19,6 +19,8 @@ in {
     // (spawn "Mod+E" ["dolphin"])
     // (spawn "Mod+X" [noctaliaBin "msg" "panel-toggle" "control-center" "notifications"])
     // (spawn "Ctrl+Alt+L" [noctaliaBin "msg" "session" "lock"])
+    // (spawn "Mod+Z" ["zeditor"])
+    // (spawn "Mod+B" ["zen"])
     # Window management
     // (bind "Mod+Q" "close-window" [])
     // (bind "Mod+F" "maximize-column" [])
