@@ -206,7 +206,7 @@
         {type = "bluetooth";}
         {type = "wallpaper";}
         {type = "notification";}
-        {type = "power_profile";}
+        {type = "nightlight";}
         {type = "caffeine";}
       ];
 
