@@ -20,7 +20,8 @@ in {
     // (spawn "Mod+X" [noctaliaBin "msg" "panel-toggle" "control-center" "notifications"])
     // (spawn "Ctrl+Alt+L" [noctaliaBin "msg" "session" "lock"])
     // (spawn "Mod+Z" ["zeditor"])
-    // (spawn "Mod+B" ["zen"])
+    // (spawn "Mod+B" ["zen-beta"])
+    // (spawn "Mod+M" ["spotify"])
     # Window management
     // (bind "Mod+Q" "close-window" [])
     // (bind "Mod+F" "maximize-column" [])
