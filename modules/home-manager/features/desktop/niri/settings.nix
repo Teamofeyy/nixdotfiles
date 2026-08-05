@@ -45,7 +45,7 @@
   gestures.hot-corners.enable = false;
 
   layout = {
-    gaps = 8;
+    gaps = 4;
     center-focused-column = "never";
     always-center-single-column = true;
     preset-column-widths = [
@@ -57,7 +57,7 @@
 
     focus-ring = {
       enable = true;
-      width = 4;
+      width = 2;
       active.color = "#eab676";
       inactive.color = "#282828";
       urgent.color = "#9b0000";

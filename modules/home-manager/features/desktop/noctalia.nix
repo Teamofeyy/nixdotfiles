@@ -169,7 +169,7 @@
         position = "top";
         thickness = 34;
         background_opacity = 0.93;
-        radius = 12;
+        radius = 0;
         margin_h = 4;
         margin_v = 4;
         padding = 8;

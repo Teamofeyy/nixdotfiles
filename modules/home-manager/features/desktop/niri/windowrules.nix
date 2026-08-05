@@ -42,5 +42,15 @@
       };
       clip-to-geometry = true;
     }
+    {
+      matches = [{app-id = "zed";}];
+
+      open-maximized = false;
+      default-column-width.fixed = 1300;
+
+      opacity = 0.9;
+      draw-border-with-background = false;
+      
+    }
   ];
 }

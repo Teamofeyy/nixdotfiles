@@ -19,6 +19,7 @@
     ./zed.nix
     ./telegram.nix
     ./tmux.nix
+    ./obsidian.nix
     #./opencodecl
   ];
 

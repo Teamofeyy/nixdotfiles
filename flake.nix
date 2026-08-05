@@ -1,5 +1,5 @@
 {
-  description = "Andriano's NixOS configurations";
+  description = "Teamofeyy's NixOS configurations";
 
   nixConfig = {
     extra-substituters = ["https://noctalia.cachix.org"];
