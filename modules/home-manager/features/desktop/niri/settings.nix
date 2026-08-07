@@ -68,7 +68,7 @@
   };
 
   outputs = {
-    "LG Electronics MP59G 0x01010101" = {
+    "Xiaomi Corporation Mi Monitor 5790010008339" = {
       mode = {
         width = 1920;
         height = 1080;
@@ -77,7 +77,7 @@
       background-color = "#282828";
     };
 
-    "Xiaomi Corporation Mi Monitor 5790010011352" = {
+    "Xiaomi Corporation Mi Monitor 5790010011489" = {
       mode = {
         width = 1920;
         height = 1080;
@@ -91,14 +91,14 @@
       };
     };
 
-    "Dell Inc. DELL S2421HS F5P2BP3" = {
-      mode = {
-        width = 1920;
-        height = 1080;
-        refresh = 74.973;
-      };
-      scale = 1;
-    };
+    # "Dell Inc. DELL S2421HS F5P2BP3" = {
+    #   mode = {
+    #     width = 1920;
+    #     height = 1080;
+    #     refresh = 74.973;
+    #   };
+    #   scale = 1;
+    # };
   };
 
   cursor = {

@@ -20,6 +20,7 @@
     ./telegram.nix
     ./tmux.nix
     ./obsidian.nix
+    ./anki.nix
     #./opencodecl
   ];
 

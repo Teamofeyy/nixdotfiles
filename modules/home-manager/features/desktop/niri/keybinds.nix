@@ -77,6 +77,12 @@ in {
     // (bind "Mod+Ctrl+J" "focus-monitor-down" [])
     // (bind "Mod+Shift+Ctrl+H" "move-column-to-monitor-left" [])
     // (bind "Mod+Shift+Ctrl+L" "move-column-to-monitor-right" [])
+    // (bind "Mod+Ctrl+Left" "focus-monitor-left" [])
+    // (bind "Mod+Ctrl+Right" "focus-monitor-right" [])
+    // (bind "Mod+Ctrl+Up" "focus-monitor-up" [])
+    // (bind "Mod+Ctrl+Down" "focus-monitor-down" [])
+    // (bind "Mod+Shift+Ctrl+Left" "move-column-to-monitor-left" [])
+    // (bind "Mod+Shift+Ctrl+Right" "move-column-to-monitor-right" [])
     # Screenshots
     // (bind "Print" "screenshot" [])
     // (bind "Ctrl+Print" "screenshot-screen" [])
