@@ -15,7 +15,7 @@ in {
   binds =
     # Apps
     (spawn "Mod+Return" ["alacritty"])
-    // (spawnWith "Mod+R" {repeat = false;} ["vicinae" "toggle"])
+    // (spawnWith "Mod+Space" {repeat = false;} ["vicinae" "toggle"])
     // (spawn "Mod+E" ["dolphin"])
     // (spawn "Mod+X" [noctaliaBin "msg" "panel-toggle" "control-center" "notifications"])
     // (spawn "Ctrl+Alt+L" [noctaliaBin "msg" "session" "lock"])
