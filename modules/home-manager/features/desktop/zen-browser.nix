@@ -58,18 +58,6 @@ in {
           position = 102;
           isEssential = true;
         };
-        "Confluence" = {
-          id = "94bc7990-7a91-4fdd-ae2d-6df49221badd";
-          url = "https://confluence.internal.madrigal.ru/index.action#all-updates";
-          position = 103;
-          isEssential = true;
-        }; 
-        "Jira" = {
-          id = "a0013f20-47e1-474f-b512-b57c55ac8de1";
-          url = "https://jira.internal.madrigal.ru/secure/RapidBoard.jspa?rapidView=9&projectKey=MSS";
-          position = 104;
-          isEssential = true;
-        }; 
         "ChatGPT" = {
           id = "20f11868-990f-4f26-8dcc-2ad901e36c6c";
           url = "https://chatgpt.com";

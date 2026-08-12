@@ -6,6 +6,7 @@
 }: {
   spawn-at-startup = [
     {argv = [noctaliaBin];}
+    {argv = ["lookapp"];}
   ];
 
   xwayland-satellite = {
