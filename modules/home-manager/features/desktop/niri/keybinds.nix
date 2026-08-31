@@ -16,7 +16,6 @@ in {
     # Apps
     (spawn "Mod+Return" ["alacritty"])
     // (spawnWith "Mod+Space" {repeat = false;} ["vicinae" "toggle"])
-    // (spawnWith "Alt+Space" {repeat = false;} ["lookapp"])
     // (spawn "Mod+E" ["dolphin"])
     // (spawn "Mod+X" [noctaliaBin "msg" "panel-toggle" "control-center" "notifications"])
     // (spawn "Ctrl+Alt+L" [noctaliaBin "msg" "session" "lock"])

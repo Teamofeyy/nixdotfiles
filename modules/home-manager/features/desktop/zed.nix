@@ -2,6 +2,7 @@
   home.packages = with pkgs; [
     nil
     alejandra
+    clang-tools
   ];
 
   programs.zed-editor = {
@@ -30,6 +31,7 @@
       "flask-snippets"
       "bearded-theme"
       "rust-workflow-snippets"
+      "assembly"
     ];
 
     userKeymaps = [
@@ -302,9 +304,40 @@
             "!nixd"
           ];
         };
+
+        C = {
+          language_servers = [
+            "clangd"
+          ];
+          formatter = {
+            external = {
+              command = "${pkgs.clang-tools}/bin/clang-format";
+              arguments = [
+                "--assume-filename"
+                "{buffer_path}"
+              ];
+            };
+          };
+        };
+
+        Assembly = {
+          language_servers = [
+            "asm-lsp"
+          ];
+        };
       };
 
       lsp = {
+        "asm-lsp" = {
+          binary = {
+            path = "asm-lsp";
+          };
+        };
+        "clangd" = {
+          binary = {
+            path = "${pkgs.clang-tools}/bin/clangd";
+          };
+        };
         "nil" = {
           initialization_options = {
             formatting = {

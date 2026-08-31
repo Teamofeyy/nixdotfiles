@@ -4,11 +4,9 @@
   nixConfig = {
     extra-substituters = [
       "https://noctalia.cachix.org"
-      "https://look.cachix.org"
     ];
     extra-trusted-public-keys = [
       "noctalia.cachix.org-1:pCOR47nnMEo5thcxNDtzWpOxNFQsBRglJzxWPp3dkU4="
-      "look.cachix.org-1:8elPCeSVBzlDZXqIRKBK9GyLIK/Hoe1xiWZF0ir7uX4="
     ];
   };
 
@@ -22,8 +20,6 @@
     # Also see the 'unstable-packages' overlay at 'overlays/default.nix'.
 
     spicetify-nix.url = "github:Gerg-L/spicetify-nix";
-
-    look.url = "github:kunkka19xx/look?dir=apps/linows";
 
     # Home manager
     home-manager.url = "github:nix-community/home-manager/release-26.05";
