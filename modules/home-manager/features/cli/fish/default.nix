@@ -42,6 +42,7 @@
       gdh = "git diff HEAD";
       gsh = "git show";
       rebuild = "nixos-rebuild switch --flake ~/nixos#$(hostname) --sudo";
+      ndp = "nix develop && zeditor .";
     };
 
     functions = {

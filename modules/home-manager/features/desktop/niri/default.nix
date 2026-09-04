@@ -21,6 +21,7 @@
     brightnessctl
     wireplumber
     kdePackages.dolphin
+    kdePackages.kio-extras
     playerctl
   ];
 }
