@@ -12,9 +12,6 @@
 
   home-manager.users = {
     tim = import ./home.nix;
-
-    # Temporary rescue profile during the migration from the old account.
-    teamofey = import ./home.nix;
   };
 
   nixpkgs.config.allowUnfree = true;

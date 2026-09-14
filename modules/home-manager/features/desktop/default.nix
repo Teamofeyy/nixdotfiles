@@ -21,6 +21,7 @@
     ./tmux.nix
     ./obsidian.nix
     ./anki.nix
+    ./blender.nix
     #./opencodecl
   ];
 
