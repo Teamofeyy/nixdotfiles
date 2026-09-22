@@ -101,8 +101,80 @@
         enabled = true;
         blurred_desktop = false;
         wallpaper = "";
-        blur_intensity = 0.2;
-        tint_intensity = 0.0;
+        blur_intensity = 0.45;
+        tint_intensity = 0.22;
+      };
+
+      lockscreen_widgets = {
+        enabled = true;
+        widget_order = [
+          "lockscreen-clock"
+          "lockscreen-date"
+          "lockscreen-login-box"
+        ];
+
+        grid = {
+          visible = false;
+          cell_size = 16;
+          major_interval = 4;
+          center_guides_visible = false;
+          snap_to_center = true;
+        };
+
+        widget = {
+          lockscreen-clock = {
+            type = "clock";
+            cx = 960.0;
+            cy = 252.0;
+            box_width = 760.0;
+            box_height = 190.0;
+            scale = 2.25;
+            rotation = 0.0;
+
+            settings = {
+              format = "{:%H:%M}";
+              background_opacity = 0.0;
+            };
+          };
+
+          lockscreen-date = {
+            type = "clock";
+            cx = 960.0;
+            cy = 384.0;
+            box_width = 620.0;
+            box_height = 72.0;
+            scale = 0.95;
+            rotation = 0.0;
+
+            settings = {
+              format = "{:%A, %B %d}";
+              background_opacity = 0.0;
+            };
+          };
+
+          lockscreen-login-box = {
+            type = "login_box";
+            cx = 960.0;
+            cy = 806.0;
+            box_width = 680.0;
+            box_height = 148.0;
+            rotation = 0.0;
+
+            settings = {
+              background_color = "surface_variant";
+              background_opacity = 0.82;
+              background_radius = 18.0;
+              input_opacity = 0.96;
+              input_radius = 9.0;
+              show_caps_lock = true;
+              show_keyboard_layout = true;
+              show_login_button = true;
+              show_password_hint = true;
+              show_media = true;
+              show_weather = true;
+            };
+          };
+        };
       };
 
       system.monitor = {

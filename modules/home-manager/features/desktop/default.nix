@@ -22,6 +22,7 @@
     ./obsidian.nix
     ./anki.nix
     ./blender.nix
+    ./readest.nix
     #./opencodecl
   ];
 
