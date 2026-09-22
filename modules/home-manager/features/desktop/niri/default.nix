@@ -20,7 +20,6 @@
   home.packages = with pkgs; [
     brightnessctl
     wireplumber
-    kdePackages.dolphin
     kdePackages.kio-extras
     playerctl
   ];

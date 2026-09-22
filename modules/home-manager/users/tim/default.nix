@@ -6,7 +6,6 @@
     ../../features/desktop
     ./sops.nix
     ./git.nix
-    ./jj.nix
     #./opencode.nix
     ./ssh.nix
   ];

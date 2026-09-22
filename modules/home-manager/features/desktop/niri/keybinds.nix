@@ -16,7 +16,7 @@ in {
     # Apps
     (spawn "Mod+Return" ["alacritty"])
     // (spawnWith "Mod+Space" {repeat = false;} ["vicinae" "toggle"])
-    // (spawn "Mod+E" ["dolphin"])
+    // (spawn "Mod+E" ["alacritty" "-e" "yazi"])
     // (spawn "Mod+X" [noctaliaBin "msg" "panel-toggle" "control-center" "notifications"])
     // (spawn "Ctrl+Alt+L" [noctaliaBin "msg" "session" "lock"])
     // (spawn "Mod+Z" ["zeditor"])

@@ -11,7 +11,6 @@
     ./ssh.nix
     ./nvim
     ./yazi.nix
-    ./jj.nix
     ./spicetify.nix
   ];
 }

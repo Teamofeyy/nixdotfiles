@@ -21,6 +21,7 @@ in {
   programs = {
     home-manager.enable = true;
     git.enable = true;
+    nh.enable = true;
   };
 
   xdg.configFile = {
