@@ -28,6 +28,10 @@
       url = "github:sodiboo/niri-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nirinit = {
+      url = "github:amaanq/nirinit";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     # The cachix branch follows the newest v5 revision already available in
     # Noctalia's binary cache. Do not make its nixpkgs input follow ours: that

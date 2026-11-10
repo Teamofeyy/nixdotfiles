@@ -1,0 +1,27 @@
+--- a/src/main.rs
++++ b/src/main.rs
+@@ -116,4 +116,12 @@
+    /// Enable debug output.
+    #[pound(short, long)]
+    debug: bool,
++
++   /// Record the current session without restoring old windows.
++   #[pound(long)]
++   no_restore: bool,
++
++   /// Save the current session once and exit.
++   #[pound(long)]
++   save_only: bool,
+ }
+@@ -467,3 +475,10 @@
+    let session_path = data_file()?;
+    info!("starting nirinit-manager");
+-   restore_session(&config, &session_path)?;
++   if args.save_only {
++      return save_session(&session_path, &config);
++   }
++   if args.no_restore {
++      save_session(&session_path, &config)?;
++   } else {
++      restore_session(&config, &session_path)?;
++   }
