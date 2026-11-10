@@ -8,6 +8,7 @@
     inputs.zen-browser.homeModules.default
     inputs.noctalia.homeModules.default
     ./font.nix
+    ./herdr.nix
     ./pavucontrol.nix
     ./playerctl.nix
     ./alacritty.nix
