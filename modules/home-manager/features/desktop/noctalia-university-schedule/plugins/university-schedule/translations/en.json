@@ -1,0 +1,4 @@
+{
+  "settings.calendar_names.label": "University calendars",
+  "settings.calendar_names.description": "Exact calendar display names to show. Leave empty to show all non-all-day events."
+}

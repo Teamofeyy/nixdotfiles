@@ -32,11 +32,14 @@
           transparency_mode = "soft";
           borders = true;
           shadow = true;
-          launcher_placement = "centered";
-          clipboard_placement = "centered";
+          launcher_placement = "floating";
+          launcher_position = "center";
+          clipboard_placement = "floating";
+          clipboard_position = "center";
           control_center_placement = "attached";
           wallpaper_placement = "attached";
-          session_placement = "centered";
+          session_placement = "floating";
+          session_position = "center";
           open_near_click_control_center = true;
         };
 
@@ -70,7 +73,7 @@
 
         automation = {
           enabled = true;
-          interval_minutes = 2;
+          interval_seconds = 120;
           order = "random";
           recursive = true;
         };
@@ -117,8 +120,6 @@
           visible = false;
           cell_size = 16;
           major_interval = 4;
-          center_guides_visible = false;
-          snap_to_center = true;
         };
 
         widget = {
@@ -128,7 +129,6 @@
             cy = 252.0;
             box_width = 760.0;
             box_height = 190.0;
-            scale = 2.25;
             rotation = 0.0;
 
             settings = {
@@ -143,7 +143,6 @@
             cy = 384.0;
             box_width = 620.0;
             box_height = 72.0;
-            scale = 0.95;
             rotation = 0.0;
 
             settings = {
@@ -169,7 +168,6 @@
               show_caps_lock = true;
               show_keyboard_layout = true;
               show_login_button = true;
-              show_password_hint = true;
               show_media = true;
               show_weather = true;
             };
@@ -187,8 +185,8 @@
         gpu_temp_critical_threshold = 90;
         ram_pct_activity_threshold = 80;
         ram_pct_critical_threshold = 90;
-        disk_pct_activity_threshold = 80;
-        disk_pct_critical_threshold = 90;
+        disk_used_pct_activity_threshold = 80;
+        disk_used_pct_critical_threshold = 90;
       };
 
       weather = {
@@ -242,8 +240,6 @@
         thickness = 34;
         background_opacity = 0.93;
         radius = 0;
-        margin_h = 4;
-        margin_v = 4;
         padding = 8;
         widget_spacing = 6;
         shadow = true;
@@ -281,8 +277,6 @@
         {type = "nightlight";}
         {type = "caffeine";}
       ];
-
-      hooks.battery_low_percent_threshold = 20;
 
       widget = {
         clock = {

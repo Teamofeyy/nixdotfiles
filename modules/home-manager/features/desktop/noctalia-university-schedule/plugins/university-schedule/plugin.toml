@@ -1,0 +1,20 @@
+id = "teamofey/university-schedule"
+name = "University Schedule"
+version = "1.0.0"
+plugin_api = 43
+author = "teamofey"
+license = "MIT"
+icon = "calendar-week"
+description = "Today's university classes from Noctalia's calendar service."
+tags = ["calendar", "desktop", "university"]
+
+[[setting]]
+key = "calendar_names"
+type = "string_list"
+label_key = "settings.calendar_names.label"
+description_key = "settings.calendar_names.description"
+default = []
+
+[[desktop_widget]]
+id = "schedule"
+entry = "schedule.luau"
