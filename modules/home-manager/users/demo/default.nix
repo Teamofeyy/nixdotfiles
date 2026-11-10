@@ -1,6 +1,6 @@
 {options, ...}: {
   imports = [
-    ../../shared
+    ../shared
     ../../features/cli
     ../../features/desktop
   ];

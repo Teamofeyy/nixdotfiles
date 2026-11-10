@@ -1,7 +1,7 @@
 {inputs, pkgs, ...}: {
   imports = [
     inputs.sops-nix.homeManagerModules.sops
-    ../../shared
+    ../shared
     ../../features/cli
     ../../features/desktop
     ./sops.nix
