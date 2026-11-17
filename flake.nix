@@ -21,6 +21,12 @@
 
     spicetify-nix.url = "github:Gerg-L/spicetify-nix";
 
+    lazyvim.url = "github:pfassina/lazyvim-nix";
+    gitgraph = {
+      url = "github:isakbm/gitgraph.nvim";
+      flake = false;
+    };
+
     # Home manager
     home-manager.url = "github:nix-community/home-manager/release-26.05";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";

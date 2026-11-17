@@ -4,7 +4,7 @@
   ...
 }: {
   home.packages = [
-    pkgs.codex
+    pkgs.unstablePkgs.codex
     pkgs.nodejs
   ];
 
