@@ -1,10 +1,2 @@
-require("options")
-require("keybinds")
-require("plugins.mini")
-require("plugins.typst")
-require("plugins.ide")
-require("plugins.theme")
-require("plugins.lsp")
-
-
-
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")

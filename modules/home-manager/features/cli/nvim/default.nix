@@ -4,36 +4,36 @@
     defaultEditor = true;
     viAlias = true;
     vimAlias = true;
+
     withRuby = false;
     withPython3 = false;
 
-    plugins = with pkgs.vimPlugins; [
-      gruvbox-nvim
-      mini-nvim
-      mini-pick
-      blink-cmp
-      gitsigns-nvim
-      conform-nvim
-      typst-preview-nvim
-    ];
-
     extraPackages = with pkgs;
       [
-        wl-clipboard
+        # LazyVim dependencies
         git
         ripgrep
         fd
-        typst
-        evince
-        websocat
+        fzf
+        lazygit
+        tree-sitter
+        gcc
+        gnumake
+        wl-clipboard
 
-        # LSP servers / formatters
+        # LSP and formatters
         rust-analyzer
         rustfmt
         lua-language-server
+        stylua
         nil
         nixfmt
         taplo
+
+        # Typst
+        typst
+        websocat
+        evince
       ]
       ++ [pkgs.unstablePkgs.tinymist];
   };
