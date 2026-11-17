@@ -258,9 +258,7 @@
       project_panel.dock = "left";
 
       show_edit_predictions = false;
-      features = {
-        edit_prediction_provider = "none";
-      };
+      edit_predictions.provider = "none";
       agent = {
         enabled = false;
         button = false;
@@ -275,6 +273,8 @@
 
       vim_mode = true;
       format_on_save = "on";
+      ensure_final_newline_on_save = true;
+      remove_trailing_whitespace_on_save = true;
 
       theme = "Bearded Theme Arc";
       icon_theme = {
@@ -324,6 +324,16 @@
           language_servers = [
             "asm-lsp"
           ];
+        };
+
+        Rust.formatter = "language_server";
+
+        TOML = {
+          language_servers = [
+            "taplo"
+            "..."
+          ];
+          formatter = "language_server";
         };
       };
 

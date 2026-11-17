@@ -1,3 +1,6 @@
 {pkgs, ...}: {
-  home.packages = [pkgs.herdr-app];
+  home.packages = with pkgs.unstablePkgs; [
+    herdr-desktop
+    herdr-core
+  ];
 }
